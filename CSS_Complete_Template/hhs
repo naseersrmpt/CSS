@@ -1,0 +1,54 @@
+<style>
+        .transform{
+            background-color: seagreen;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+        }
+
+        .translate:hover{
+            transform: translate(10px,20px);
+            cursor: pointer;
+        }
+
+        .rotate_clock:hover{
+            transform: rotate(45deg);
+            cursor: pointer;
+        }
+
+        .rotate_counter:hover{
+            transform: rotate(-45deg);
+            cursor: pointer;
+        }
+
+        .scale_up:hover{
+            transform: scale(2,3);
+            cursor: pointer;
+        }
+
+        .scale_down:hover{
+            transform: scale(0.8,0.8);
+            cursor: pointer;
+        }
+
+        .skewX_pos:hover{
+            transform: skewX(20deg);
+            cursor: pointer;
+        }
+
+        .skewX_neg:hover{
+            transform: skewX(-20deg);
+            cursor: pointer;
+        }
+
+        .skewY_pos:hover{
+            transform: skewY(20deg);
+            cursor: pointer;
+        }
+
+        .skewY_neg:hover{
+            transform: skewY(-20deg);
+            cursor: pointer;
+        }
+    </style>

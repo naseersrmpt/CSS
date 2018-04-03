@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS forms</title>
+    <style>
+        body{
+            background-image: url("img/gallery1.jpeg");
+        }
+        div{
+            border: 2px solid blue;
+            font-family: "Helvetica Neue", sans-serif;
+            width: 300px;
+            margin-left: 200px;
+            margin-top: 100px;
+            text-align: center;
+            border-radius: 10px;
+            background-image: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
+        }
+        h3{
+            color: darkblue;
+            font-size: 25px;
+
+        }
+        input[type='text'],input[type='password']{
+            height: 50px;
+            margin: 15px;
+            font-size: 20px;
+            text-align: center;
+            border: 2px solid blue;
+            border-radius: 10px;
+        }
+        input[type='text'],input[type='password']:focus{
+            outline: none;
+            background-color: lightcyan;
+        }
+        input[type='submit'],input[type='reset']{
+            background-color: darkblue;
+            color: whitesmoke;
+            border: none;
+            font-size: 20px;
+            padding: 10px 25px;
+            margin: 15px;
+            border-radius: 10px;
+        }
+        input[type='submit']:hover{
+            cursor: pointer;
+            box-shadow: 5px 5px 5px cyan;
+            font-size: 22px;
+        }
+        input[type='reset']:hover{
+            cursor: pointer;
+            box-shadow: 5px 5px 5px cyan;
+            font-size: 22px;
+        }
+    </style>
+   
+</head>
+<body>
+
+<div class="form-section">
+    <h3>Sign in Here</h3>
+    <form>
+        <input type="text" placeholder="Enter UserName" size="15">
+        <br>
+        <br>
+        <input type="password" placeholder="Enter Password" size="15">
+        <br>
+        <br>
+        <input type="submit" value=" Submit">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+
+</body>
+</html>
